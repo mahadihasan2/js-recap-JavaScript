@@ -20,3 +20,24 @@ const office = {
         Employer3: 'Seo Expert'
 
     },
+}
+const employee = {
+    name: 'Rakib Khan',
+    ide: 'Vs Code',
+    degisnation: 'Developer',
+    language: ['Hyml', 'CSS', 'JavaScript'],
+    specification: {
+        height: 59,
+        wieght: 70,
+        address: 'Narsingdi Dhaka Bangladesh',
+        drink: 'water',
+        watch: {
+            color: 'red',
+            brand: 'Mackbook',
+            price: $599;
+        }
+    }
+}
+const { name, degisnation } = employee
+const { height } = employee.specification
+const { brand } = employee.specification.watch
