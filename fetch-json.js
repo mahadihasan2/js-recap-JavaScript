@@ -24,4 +24,4 @@ console.log(values)
 const numbers = [39, 50, 44, 32, 12]
 numbers.forEach(num => console.log(num))
 numbers.map(num => num * 2)
-console.log(numbers)
+
